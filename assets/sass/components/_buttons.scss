@@ -1,0 +1,25 @@
+.section-name__items-btn{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.btn-m{
+  background-color: $azul;
+  color: white;
+  margin-right: 10px;
+  border-color: $azul;
+  &:hover{
+    color: $smok;
+  }
+}
+
+.btn-s{
+  background-color: $rojo;
+  border-color: $rojo;
+  color:white;
+  &:hover{
+    color: $smok;
+  }
+}
